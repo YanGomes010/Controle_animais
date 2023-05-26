@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="./index.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Controle animais</title>
+</head>
+
+<body>
+    <div class="container">
+    <header>
+        <img src="./logo.svg" alt="">
+        <button id="cdt_animal">CADASTRAR ANIMAL</button>
+    </header>
+    <main>
+        <section id="menu">
+            <h3>CADASTRAR</h1>
+                <form action="#" method="GET" autocomplete="off">
+                    <div class="caixa_input">
+                        <label for="nome">Nome</label>
+                        <input class="input_class" type="text" id="0" name="nome" placeholder="Nome do animal">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Brinco">Brinco</label>
+                        <input class="input_class" type="text" id="1" name="Brinco" placeholder="Número do brinco">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Sexo">Sexo</label>
+                        <input class="input_class" type="text" id="2" name="Sexo" placeholder="M ou F">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Tipo">Tipo</label>
+                        <input class="input_class" type="text" id="3" name="Tipo"
+                            placeholder="Vaca, Boi, Toro, Bezerro...">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Raça">Raça</label>
+                        <input class="input_class" type="text" id="4" name="Raça" placeholder="Raça">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Idade">Idade</label>
+                        <input class="input_class" type="number" id="5" name="Idade" placeholder="Idade">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Origem">Origem</label>
+                        <input class="input_class" type="text" id="6" name="Origem" placeholder="Compra / Nascimento">
+                    </div>
+                    <div class="caixa_input">
+                        <label for="Nascimento">Nascimento</label>
+                        <input class="input_class" type="date" id="7" name="Nascimento">
+                    </div>
+                    <div class="caixa_input">
+                        <input class="input_class" type="submit" id="btn" value="CADASTRAR" name="submit">
+                    </div>
+                </form>
+        </section>
+        <section id="animais_cadastrados">
+            <table id="tabela">
+            </table>
+        </section>
+    </main>
+</div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
